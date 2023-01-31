@@ -1,0 +1,11 @@
+{
+  "project": "1537222982405252-cn-hangzhou-logproject",
+  "logstore": "1537222982405252-cn-hangzhou-logproject/fc-service-mofei_tools-logstore",
+  "serviceName": "mofei_tools",
+  "functionNames": [
+    "mofei_tools/mofei_tools"
+  ],
+  "domains": [
+    "mofei-tools.mofei-tools.1537222982405252.cn-hangzhou.fc.devsapp.net"
+  ]
+}

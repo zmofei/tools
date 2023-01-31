@@ -1,0 +1,223 @@
+.header {
+    height: 50px;
+    line-height: 50px;
+    /* max-width: 1000px; */
+    border-bottom: 1px solid #222;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.headerContext {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h2 {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.timeInputArea {
+    font-size: 0.8em;
+    color: #666;
+}
+
+.timeInput {
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 2px 5px;
+    height: 28px;
+    width: 25em;
+    color: #fff;
+    box-sizing: border-box;
+    text-align: center;
+    /* background: red; */
+    border: none;
+    /* border-radius: 0; */
+
+}
+
+.timeInput:focus {
+    outline: 1px solid #666;
+}
+
+.timeInput::placeholder {
+    text-align: center;
+}
+
+.timeInput:invalid {
+    /* background: red; */
+    outline: 1px solid red;
+}
+
+/* 
+.timeInput {
+    float: right; */
+/* } */
+
+.main {
+    max-width: 1000px;
+    /* padding: 0 20px; */
+    margin: auto;
+    position: relative;
+}
+
+.timeLists {
+    overflow-y: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+
+.timeListLiHead {
+    position: relative;
+}
+
+
+
+.timeListLeft {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    cursor: pointer;
+}
+
+.timeListRight {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    cursor: pointer;
+}
+
+.timeListDelete {
+    vertical-align: middle;
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+}
+
+.realTime {
+    position: absolute;
+    left: 0;
+    top: 0px;
+    right: 0;
+}
+
+.realTime::before {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 20%;
+    background: #333;
+    z-index: -2;
+}
+
+.realTime::after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    top: 10%;
+    background: #000;
+    z-index: 1;
+}
+
+.realTimeText {
+    box-sizing: border-box;
+    height: 2em;
+    line-height: 2em;
+    font-size: 1em;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    background: #333;
+    padding: 0px 10px;
+    transform: translateX(-100%);
+    display: inline-block;
+}
+
+
+.timeLists ul {
+    flex: 1 0 130px;
+
+}
+
+.timeLists ul,
+.timeLists ul li {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.timeLists ul:last-of-type li {
+    border-right: 1px solid #222;
+}
+
+.timeLists ul li:first-of-type {
+    border-top: 1px solid #222;
+}
+
+.timeLists ul li {
+    border-bottom: 1px solid #333;
+    border-left: 1px solid #222;
+    text-align: center;
+    /* padding: 3px 5px; */
+    box-sizing: border-box;
+    height: 2em;
+    line-height: 2em;
+}
+
+.timeLists ul li.timeList {
+    color: #999;
+    padding-left: 25px;
+    background: url('/time/moon.svg') no-repeat 5px center rgba(80, 80, 80, 0.2);
+}
+
+.timeLists ul li.workTime {
+    color: #fff;
+    background: url('/time/sun.svg') no-repeat 5px center rgba(80, 80, 80, 0.5);
+}
+
+.timeLists ul li.activeRow {
+    background-color: rgba(191, 190, 190, 0.354);
+    color: #fff;
+}
+
+
+.timeLists ul img {
+    vertical-align: middle;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    /* background: #000; */
+    background: linear-gradient(180deg, rgba(195, 34, 34, 0) 0%, rgba(0, 0, 0, 1) 100%);
+
+}
+
+.footer img {
+    vertical-align: middle;
+}
+
+.descriptionEmoji {
+    font-family: auto;
+    margin: 0 10px;
+}

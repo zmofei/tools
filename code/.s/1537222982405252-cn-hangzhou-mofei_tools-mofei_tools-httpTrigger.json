@@ -1,0 +1,27 @@
+{
+  "statefulConfig": {
+    "triggerName": "httpTrigger",
+    "description": "",
+    "triggerId": "c079412e-5c41-4ea0-8e3c-49662355a3e0",
+    "sourceArn": null,
+    "triggerType": "http",
+    "invocationRole": null,
+    "qualifier": null,
+    "urlInternet": "https://mofei-tools-mofei-tools-btbliyvcee.cn-hangzhou.fcapp.run",
+    "urlIntranet": "https://mofei-tools-mofei-tools-btbliyvcee.cn-hangzhou-vpc.fcapp.run",
+    "triggerConfig": {
+      "methods": [
+        "GET",
+        "POST",
+        "PUT"
+      ],
+      "authType": "anonymous",
+      "disableURLInternet": false
+    },
+    "createdTime": "2023-01-31T09:09:33Z",
+    "lastModifiedTime": "2023-01-31T10:59:25Z",
+    "status": null,
+    "targetArn": null,
+    "name": "httpTrigger"
+  }
+}

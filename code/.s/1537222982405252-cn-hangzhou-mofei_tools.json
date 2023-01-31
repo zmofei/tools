@@ -1,0 +1,40 @@
+{
+  "statefulConfig": {
+    "serviceName": "mofei_tools",
+    "description": "This is FC service",
+    "role": "acs:ram::1537222982405252:role/aliyunfcdefaultrole",
+    "logConfig": {
+      "project": "1537222982405252-cn-hangzhou-logproject",
+      "logstore": "fc-service-mofei_tools-logstore",
+      "enableRequestMetrics": true,
+      "enableInstanceMetrics": true,
+      "logBeginRule": "DefaultRegex"
+    },
+    "serviceId": "6adcbe03-181e-462f-98e1-33c5eadfc325",
+    "createdTime": "2023-01-31T09:07:00Z",
+    "lastModifiedTime": "2023-01-31T10:59:25Z",
+    "vpcConfig": {
+      "vpcId": "",
+      "vSwitchIds": [],
+      "securityGroupId": "",
+      "role": "",
+      "anytunnelViaENI": null
+    },
+    "internetAccess": true,
+    "nasConfig": {
+      "userId": -1,
+      "groupId": -1,
+      "mountPoints": []
+    },
+    "ossMountConfig": {
+      "mountPoints": []
+    },
+    "vendorConfig": null,
+    "tracingConfig": {
+      "type": null,
+      "params": null,
+      "jaegerConfig": null
+    },
+    "name": "mofei_tools"
+  }
+}

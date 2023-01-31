@@ -1,0 +1,52 @@
+{
+  "statefulConfig": {
+    "functionId": "954c5bd2-4d60-4b7b-8f68-7474359d3381",
+    "functionName": "mofei_tools",
+    "description": "This is default function description by fc-deploy component",
+    "runtime": "custom-container",
+    "handler": "index.handler",
+    "timeout": 120,
+    "initializer": "",
+    "initializationTimeout": 3,
+    "codeSize": 0,
+    "codeChecksum": "",
+    "memorySize": 1024,
+    "gpuMemorySize": null,
+    "environmentVariables": {},
+    "createdTime": "2023-01-31T09:09:33Z",
+    "lastModifiedTime": "2023-01-31T10:59:25Z",
+    "instanceConcurrency": 100,
+    "instanceSoftConcurrency": null,
+    "customContainerConfig": {
+      "accelerationInfo": {
+        "status": "Preparing"
+      },
+      "accelerationType": "Default",
+      "args": null,
+      "command": null,
+      "image": "registry.cn-hangzhou.aliyuncs.com/zhuwenlong_com/tools:v1.0",
+      "imageAcclConfig": null,
+      "instanceID": null,
+      "serverlessImage": null,
+      "webServerMode": true
+    },
+    "caPort": 9000,
+    "instanceType": "e1",
+    "layers": null,
+    "layersArnV2": null,
+    "instanceLifecycleConfig": {
+      "preFreeze": {
+        "handler": "",
+        "timeout": 3
+      },
+      "preStop": {
+        "handler": "",
+        "timeout": 3
+      }
+    },
+    "customDNS": null,
+    "customRuntimeConfig": null,
+    "customHealthCheckConfig": null,
+    "name": "mofei_tools"
+  }
+}

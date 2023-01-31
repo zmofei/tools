@@ -1,0 +1,41 @@
+{
+  "domainName": "mofei-tools.mofei-tools.1537222982405252.cn-hangzhou.fc.devsapp.net",
+  "accountId": "1537222982405252",
+  "protocol": "HTTP",
+  "certConfig": {
+    "certName": null,
+    "privateKey": null,
+    "certificate": null
+  },
+  "tlsConfig": {
+    "minVersion": null,
+    "maxVersion": null,
+    "cipherSuites": null
+  },
+  "apiVersion": "2016-08-15",
+  "routeConfig": {
+    "routes": [
+      {
+        "path": "/*",
+        "accountId": null,
+        "serviceName": "zhuwenlong_com_frontend",
+        "functionName": "zhuwenlong_com_frontend",
+        "qualifier": null,
+        "methods": [
+          "GET",
+          "POST",
+          "PUT"
+        ],
+        "rewriteConfig": null,
+        "innerRewriteConfig": null
+      }
+    ]
+  },
+  "createdTime": "2023-01-31T09:09:35Z",
+  "lastModifiedTime": "2023-01-31T10:59:30Z",
+  "keepFullPath": true,
+  "subdomainCount": null,
+  "wafConfig": {
+    "enableWAF": false
+  }
+}
